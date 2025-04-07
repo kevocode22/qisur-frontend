@@ -1,12 +1,52 @@
-# React + Vite
+# 🛒 Qisur - Dashboard de Productos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un panel de administración de productos desarrollado con **React** y **Vite**, que permite realizar operaciones **CRUD** (Crear, Leer, Actualizar y Eliminar) sobre una lista de productos utilizando una **API REST** personalizada.
+También muestra gráficos que son consumidos a través de la API.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [shadcn/ui](https://ui.shadcn.com/) – componentes accesibles y estilizados con Tailwind CSS
+- [Tailwind CSS](https://tailwindcss.com/)
+- [sonner](https://sonner.emilkowal.ski/) – sistema de notificaciones
+- [size-charts](https://www.npmjs.com/package/size-charts) – conversor de unidades de medida (usado para futuras mejoras)
+- [Render](https://render.com/) – hosting de la API (mocked)
+- API base: [https://qisur-api.onrender.com](https://qisur-api.onrender.com)
+- Deploy realizado en Vercel: [https://qisur-frontend.vercel.app/](https://qisur-frontend.vercel.app/)
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Listado de productos con tabla responsive
+- 🔍 Búsqueda de productos por nombre
+- 📄 Paginación automática
+- ➕ Modal para creación de nuevos productos
+- 🗑️ Eliminación de productos
+- ⚙️ Preparado para futuras ediciones (update)
+- 💡 Diseño moderno con componentes reutilizables
+- 🖼️ Soporte para imágenes y descripción detallada
+
+## 🧩 Clonar e instalar el proyecto
+
+```bash
+# 1. Cloná el repositorio
+git clone https://github.com/kevocode22/qisur-frontend.git
+
+# 2. Instalá las dependencias
+npm install
+
+# 3. Iniciá el servidor de desarrollo
+npm run dev
+```
+
+## 🛠️ Scripts
+
+```bash
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Compilar para producción
+npm run build
+
+```

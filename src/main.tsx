@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
       <Layout>
         <Routes>
           <Route path="/" element={<ProductsTable />} />
-          <Route path="charts" element={<PageCharts />} />
+          <Route path="/charts" element={<PageCharts />} />
           <Route path="/products/:id" element={<ProductDetails />} />
         </Routes>
         <Toaster />
